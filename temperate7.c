@@ -10,7 +10,7 @@ main()
 	
 	while(n>=a)
 	{	
-	s=a+b
+	s=a+b;
 	printf("%d ",a);
 	a=b;
 	b=s;
