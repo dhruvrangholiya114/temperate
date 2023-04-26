@@ -2,16 +2,17 @@
 
 main()
 {
-	int a,b,c,n,i;
-	n=4;
-	a=b=1;
+	int a=0,b=1,n,s;
+	printf("enter number:");
+	scanf("%d",&n);
 	
-	printf("%d %d ",a,b);
+	printf("\n%d %d ",a,b);
 	
-	for (i=1; i<=n-2;i++)
-	c=a+b;
-	printf("%d ",c);
+	while(n>=a)
+	{	
+	s=a+b
+	printf("%d ",a);
 	a=b;
-	b=c;
-
+	b=s;
+	}
 }
